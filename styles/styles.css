@@ -170,3 +170,94 @@ footer {
   font-size: 0.8rem;
   font-weight: 400;
 }
+
+/* Responsive - mobile */
+
+@media screen and (max-width: 576px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-title {
+    text-align: center;
+    font-size: 35px;
+  }
+  .text-description {
+    text-align: center;
+    font-size: 14px;
+  }
+  button .btn-primary {
+    position: relative;
+    left: 28%;
+  }
+  .popular-collection {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 30px;
+  }
+  .featured {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .featured-title {
+    pad: 0 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .feature-img {
+    padding: 0px 5px;
+  }
+  button.btn-primary.btn-2 {
+    margin-left: 32%;
+  }
+  .brands {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-title {
+    text-align: center;
+    font-size: 35px;
+  }
+  .text-description {
+    text-align: center;
+    font-size: 14px;
+  }
+  button.btn-primary {
+    margin-left: 25%;
+  }
+  .popular-collection {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 100px;
+  }
+  .featured {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .featured-title {
+    pad: 0 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .feature-img {
+    padding: 0px 5px;
+  }
+  button.btn-primary.btn-2 {
+    margin-left: 32%;
+  }
+  .brands {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
