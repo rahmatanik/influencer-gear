@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+/* Common styles */
+
+.btn-primary {
+  border-radius: 41px;
+  background: #e02c6d;
+  padding: 15px 30px;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Header part start */
+
+.nav-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo h3 {
+  color: #3a3a3a;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-menu ul {
+  display: flex;
+}
+.nav-menu ul li {
+  margin-right: 20px;
+  list-style: none;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  margin-left: 20px;
+  list-style: none;
+}
+
+.nva-menu .ecommerce img {
+  margin-right: 10px;
+}
+/* banner area styles */
+.section-title {
+  margin: 50px 0px 30px 0px;
+  text-align: center;
+
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
+}
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 10%;
+}
+
+.banner-title {
+  color: #3a3a3a;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.text-description {
+  color: #3a3a3a;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.banner-img {
+  margin-left: 50px;
+  background-image: url("../images/");
+}
+
+/* brands style starts */
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border-top: 2px solid rgb(241, 241, 241);
+  border-bottom: 2px solid rgb(241, 241, 241);
+  padding: 40px 0;
+  margin: 0 auto;
+  width: 60%;
+}
+
+/* Popular collection styles */
+.popular-collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 50px;
+}
+.card {
+  padding: 30px;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 5px;
+  box-shadow: 1px 5px 5px rgb(221, 221, 221);
+}
+.card > img {
+  width: 100%;
+}
+.card-price {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.rating {
+  display: flex;
+  margin: 10px 0;
+  width: 100%;
+  gap: 8px;
+}
+.rating img {
+  width: 45%;
+}
+
+/* Featured section start */
+.featured {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  align-items: center;
+  margin: 120px 0;
+}
+
+.featured-title {
+  color: #0a0826;
+  margin-bottom: 5px;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+/* Footer style start */
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 100px 0;
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.copyright {
+  margin-top: 10px;
+  color: #d9dbe1;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
